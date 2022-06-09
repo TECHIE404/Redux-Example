@@ -10,11 +10,9 @@ import {store} from '../src/state/store';
 export default function Home() {
   return (
     <div className="container">
-    <Provider store={store}>
       <Header/>
       <Main />
       <Footer />
-      </Provider>
     </div>
   )
 }
